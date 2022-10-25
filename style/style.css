@@ -66,3 +66,40 @@ button {
     border-color: #1e90ff;
     border-style: solid;
 }
+/* todo list */
+.grafic {
+    padding-left: 30px;
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+h2 {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+ul {
+    list-style-type: none;
+    padding-bottom: 40px;
+}
+
+li {
+     line-height: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+
+/* check signs */
+
+.check-circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid green;
+    color: green;
+    display: inline-block;
+    text-align: center;
+}
+.check-circle.red {
+    border: solid red;
+    color: red; 
+}
+
